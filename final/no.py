@@ -8,7 +8,7 @@
 # import streamlit as st
 
 # # Load `.txt` file directly with TextLoader
-# file_path = "eds_data.txt"  # Replace with the path to your file
+# file_path = "./eds_data.txt"  # Replace with the path to your file
 # loader = TextLoader(file_path, encoding="utf-8")
 # documents = loader.load()
 
