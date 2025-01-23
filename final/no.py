@@ -303,7 +303,7 @@ data = """
 """
 
 # Simulate loading the data into a document format (as if it's from a file)
-documents = [ {"page_content""data}]
+documents = [ {"page_content":data}]
 
 # # Split the text into smaller chunks
 # text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
